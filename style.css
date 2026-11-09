@@ -1,0 +1,474 @@
+
+#nautz{
+background-color: white;
+color:  black;
+display: flex;
+gap: 3vw;
+padding-left: 2vw;
+padding-bottom: 20px;
+position: fixed;
+direction: rtl;
+  border: solid rgb(247, 235, 237) 1px;
+   border-radius: 15px;
+   align-items: center;
+}
+body{
+  font-family: 'Almoni Neue DL 4.0 AAA';
+}
+#logo{
+    height: 100%;
+    width: 24%;
+}
+#headermove{
+  font-size: 17px;
+  animation:textmove 6s infinite;
+  transition: all 6s;
+}
+@keyframes textmove{
+  30%{
+transform: translate(60px);
+  }
+    70%{
+transform: translate(-50px);
+  }
+}
+#point{
+  padding-top: 3px;
+  height: 20px;
+  width: 20px;
+
+}
+#writediv{
+  width: 15px;
+}
+#t{
+     background-color: rgb(217, 46, 46);
+    color: aliceblue;
+    width: 18vh;
+    text-align: center;
+    border-radius:25px;
+    font-size: 2.8vh;
+    height: 50px;
+    align-content: center;
+}
+#red{
+
+    border-radius: 10%;
+    background-color: rgb(217, 46, 46);
+    height: 29vh;
+    width: 23vh;
+    position: fixed;
+    right: 7px;
+    bottom: 0px;
+      border-radius:10px 0 0 80px ; 
+}
+#textred1{
+  margin-right:40px;
+  text-align: none;
+  font-family: Guttman Yad;
+  font-size: 20px;
+  color: white;
+}
+#textred2{
+  margin-right:40px;
+  text-align: none;
+  font-family: Arial;
+   color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 2.2vh;
+    color: rgb(0, 0, 0);
+}
+*{
+    direction: rtl;
+}
+#black{
+    background-color: rgb(49, 46, 46);
+    width: 150vh;
+    height: 100vh;
+          border-radius:0 0 0 340px ; 
+}
+ #thereismore{
+  height: 20vh;
+  width: 6%;
+    margin-right: 1360px;
+  padding-left: 1200px;
+position: sticky;
+   top: 850px;
+ }
+#insidethereismore1{
+  margin-right: 49px;
+  padding-right:  49px;
+    height: 50%;
+  width: 25%;
+   top: 720px;
+}
+#insidethereismore2{
+      height: 50%;
+  width: 100%;
+
+}
+#three{
+ display: flex;
+   height: 50vh;
+   width: 150vh;
+    margin-right:386px;
+   gap: 130px;
+}
+.d3{
+height: 30vh;
+width: 30vh;
+text-align: center;
+}
+h1{
+    text-align: right;
+    font-family:Segoe UI Light;
+    
+
+}
+h2{
+    text-align: right;
+    margin-right:386px;
+}
+h3{
+  text-align: center;
+  display: flex;
+}
+h4{
+  bottom: 10px;
+  text-align: center;
+
+}
+#pink{
+     height:70vh;
+   width:193vh; 
+background-color: rgb(241, 237, 238);
+ display: flex;
+padding-left: 20vh;
+padding-right: 15vh;
+ text-align: center;
+}
+.sqr4{
+      height: 23vh;
+  width: 35vh;
+   background-color: rgb(249, 250, 251); 
+   border: solid rgb(249, 129, 99) 3px;
+    border-radius: 15px;
+   margin-top: 120px;
+    margin-right:  10px;
+    margin-left: 10px;
+    text-align: center;
+   padding:20px;
+   padding-bottom: 5px;
+
+}
+  #bag{
+    height: 50px;
+  } 
+    #house{
+    height: 50px;
+  } 
+    #ambulans{
+    height: 50px;
+  } 
+    #chair{
+    height: 50px;
+  } 
+  .inside{
+    height:8vh;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+justify-content: center;
+  }
+  .sqr4:hover{
+    background-color: rgb(221, 111, 111);
+  }
+  #pink2{
+    background-color: rgb(255, 223, 227);
+    height:83vh;
+    width:190vh; 
+    border-radius: 15px;
+  
+  }
+  #moka{
+    background-color: rgb(224, 204, 176);
+    height:120vh;
+    width:196vh; 
+   
+  }
+  #aiconred{
+    
+    position: relative;
+  margin-right: 150px;
+  margin-top: 90px;
+
+  }
+  #we{
+font-size:30px;
+direction: rtl; 
+   text-align: right;
+   margin-right: 130px;
+  font-family: Calibri Light;
+  }
+  #phone{
+    font-size:70px;
+    direction: rtl;
+    text-align: right;
+    margin-right: 130px;
+      font-family:Times New Roman;
+  }
+  #insidemoka{
+    display: flex;
+    height: 50vh;
+    width: 150vh;
+     margin-right:386px;
+    gap: 130px;
+  }
+  .headermoka{
+   text-align: none;
+   font-size: 25px;
+  }
+  .textmoka{
+  text-align: right;
+    margin-right:none;
+    font-size:18px;
+  }
+  .ahref{
+    color: white;
+  }
+  #tzilummasach{
+height: 140px;
+width: 210px;
+margin-top: 100px;
+margin-right: 100px;
+  }
+  .insidecolel{
+display: flex;
+border: solid rgb(249, 129, 99) 3px;
+border-radius:4px;
+height: 23vh;
+width: 35vh;
+padding-right: 15vh;
+background-color: white;
+  }
+  #pictures{
+display: flex;
+width: 180vh;
+height: 60vh;
+gap: 30px;
+  }
+  #insidepic1{
+       width:40%;
+       height:100%;
+       margin-right: 150px;
+  }
+  .insidepic2{
+    width: 20%;
+  height:100%;
+  background-color: tan;
+    border-radius:80px 10px 10px 10px ; 
+  }
+ #pic1{
+    width:100%;
+  height:100%;
+    border-radius:80px 10px 10px 10px ;  
+ }
+ #pic2{
+  width: 100%;
+  height: 50%;
+    border-radius:80px 10px 10px 10px ; 
+ }
+ #pic3{
+  width:100%;
+  height:50%;
+ }
+#form{
+ border-radius: 20%;
+}
+#formline1{
+height: 8vh;
+width: 100%;
+  display: flex;
+ gap: 50px;
+
+}
+#formline2{
+height: 8vh;
+width: 100%;
+  display: flex;
+   gap: 60px;
+   }
+   #formline3{
+height: 8vh;
+width: 100%;
+  display: flex;
+   gap: 60px;
+   }
+   #ribua{
+  margin-right: 20px;
+ height: 8vh;
+width: 50%;
+display: flex;
+}
+#check_box{
+display: flex;
+}
+#check{
+position: relative;
+right: 1px;
+width: 25px;
+cursor: pointer;
+}
+.nameTx{
+  font-size: 50px;
+  font-weight: 100;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input,
+select,
+textarea {
+    width: 80%;
+    height: 50px;
+    margin-bottom: 23px;
+    direction: rtl;
+    border-radius: 8px;
+    background-color: white;
+}
+#colel{
+  display: flex;
+  gap: 20px;
+  height: 100vh;
+  width:70%;
+  margin-top: 4%;
+  margin-right: 150px;
+}
+#colelel1{
+  height: 50%;
+  width: 50%;
+}
+#colelel2{
+  height: 50%;
+  width: 50%;
+}
+#insidecolela{
+ height: 50%;
+border: solid rgb(249, 129, 99) 3px;
+border-radius: 7px;
+text-align: center;
+align-items: center;
+}
+#insidecolelb{
+height: 50%;
+border: solid rgb(249, 129, 99) 3px;
+border-radius: 7px;
+margin-top: 30px;
+text-align: center;
+align-items: center;
+}
+#insidecolelc{
+border: solid rgb(249, 129, 99) 3px;
+border-radius: 7px;
+text-align: center;
+height: 50%;
+align-items: center;
+}
+#insidecoleld{
+height: 50%;
+margin-top: 30px;
+border: solid rgb(249, 129, 99) 3px;
+border-radius: 7px;
+text-align: center;
+align-items: center;
+}
+#filling{
+  background-color: rgb(253, 206, 206);
+   /* background-color: rgb(255, 223, 227); */
+    height: 70vh;
+    width:30vw;
+    border-radius: 15px;
+    margin-top: 20%;
+    margin-left: 20px;
+
+}
+#line{
+margin-right: 25px;
+}
+#textpinktop{
+margin-right: 32px;
+padding-top: 45px;
+}
+#hrefpage2{
+display: block;
+padding-top: 140px;
+margin-right: 160px;
+}
+#right{
+  width:55%;
+}
+#left{
+  width:45%;
+
+}
+#center{
+  display:flex ;
+}
+.li:hover{
+  justify-items: center;
+  text-align: center;
+transform: scale(1.2);
+}
+.li{
+  font-size:medium;
+transition:transform 0.7s ease;
+  background-color: rgb(217, 46, 46);
+color: white;
+height:4vh;
+width: 43%;
+border-radius:25px;
+align-items: center;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+margin-right: 100px;
+
+
+}
+.title_block {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.txt_box{
+  width: 15vw;
+  font-size:17px;
+
+}
+.piccolel{
+  padding-top: 25px;
+ 
+}
+#insidemoka1{
+  font-size: 18px;
+}
+#cookie{
+  position: fixed;
+    left:40px;
+    bottom: 120px;
+   height: 40px;
+   width: 40px;
+}
+#booa{
+    position: fixed;
+    left: 90px;
+    bottom: 50px;
+    height:50px;
+   width: 50px;
+}
+#newzlater{
+  margin-right: 30vh;
+height: 100px;
+}
